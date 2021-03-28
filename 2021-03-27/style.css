@@ -7,3 +7,15 @@
 .purpura{
     color: purple;
 }
+.grosor-fuente{
+    font-weight: bold;
+}
+body{
+    background-color: none;
+    background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+}
+
+img{
+    float: right;
+    margin: 20px;
+}
