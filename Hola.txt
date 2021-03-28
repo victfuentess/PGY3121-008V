@@ -1,0 +1,8 @@
+Hola este es el archivo que sincronizare en mi computadora local
+los pasos que hemos desarrollado
+
+1. Instalamos GIT en la computadora (Local)
+2. Configuramos las variables de usario en el GIT del computaddor (Local)
+3. Creamos repositorio en GitHUb
+4. Creamos Este Archivo
+5. Sincronizar mi computadorora con el repositorio que esta en GITHUB usando VScode
