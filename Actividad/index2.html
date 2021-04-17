@@ -1,0 +1,165 @@
+<DOCTYPE !html>
+
+    <style>
+    
+        .image
+        {
+            position: absolute;
+            top:50px;
+            left:8px;
+            z-index: 3;
+        }
+    
+    
+        .bannerback
+        {
+        top: 0px;
+        left: 0px;
+        postion: absolute;
+        z-index: -1; 
+        margin: 0;
+        overflow: hidden;
+        }
+    
+        .ribbon
+        {
+        position: absolute;
+        left: 5px;
+        top: 45px;
+        height:81px;
+        width: 100%;
+        background: rgba(215,83,0,0.85); 
+        }
+    
+        .dropdown
+        {
+        position: relative;
+        width: 100%;
+        }   
+    
+        menu ul ul{
+        display: none;
+        }
+    
+        menu ul li:hover > ul{
+        display:block;
+        }
+    
+        menu ul li:hover > a{
+        color: rgb(215,83,0);
+        }
+    
+        menu ul {
+        background: rgba(215,83,0,0); 
+        border-radius: 0px;  
+        list-style: none;
+        position: absolute;
+        display: table;
+        top:0px;
+        z-index: 4;
+        overflow: hidden;
+        }
+    
+        menu ul li {
+        overflow: hidden;
+        }   
+    
+        menu ul:after {
+            content: ""; clear: both; display: block;
+        }
+    
+        menu ul li {
+        float: left;
+        }
+    
+        menu ul li:hover {
+        background: black;
+        }
+    
+        menu ul li a:hover{
+        color: rgb(215,83,0);
+        }
+    
+        menu ul li a {
+            display: block;
+            padding: 25px 80px;
+            color: black; 
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 26px;
+            background: rgba(215,83,0,0);
+            font-family:"Trebuchet MS", Helvetica, sans-serif;
+        }
+    
+        menu ul ul {
+        border-radius: 0px; 
+        padding: 0;
+        position: absolute;
+        top: 100%;
+        background: rgba(215,83,0,0.85);
+        }
+    
+        menu ul ul li {
+        float: none; 
+        position: relative;
+        }
+    
+    </style>
+    
+    
+    <body bgcolor = "black">
+    
+    <div class = "bannerback">
+    <img src="file:///C:/Users/JesseAulsebrook/Desktop/Yearbook/Banner.png" width="2000" height="200">
+    </div> 
+    
+    <div class = "image">
+    <img src="file:///C:/Users/JesseAulsebrook/Desktop/Yearbook/TurtleLogo.png" width="78" height ="75">
+    </div> 
+    
+    <div class = "ribbon">
+    
+    <menu>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">RST & Society</a>
+    
+            <ul>
+                <li><a href="#">RST</a></li>
+                <li><a href="#">Society</a></li>
+            </ul>
+    
+        </li>
+    
+        <li><a href="#">Wings</a>
+    
+            <ul>
+                <li><a href="#">Ground Floor West</a></li>
+                <li><a href="#">Ground Floor East</a></li>
+                <li><a href="#">First Floor West</a></li>
+                <li><a href="#">First Floor East</a></li>
+                <li><a href="#">Second Floor West</a></li>
+                <li><a href="#">Second Floor East</a></li>
+                <li><a href="#">Third Floor West</a></li>
+                <li><a href="#">Third Floor East</a></li>
+                <li><a href="#">Fourth Floor West</a></li>
+                <li><a href="#">Fourth Floor East</a></li>
+            </ul>
+    
+        </li>
+    
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Photos</a></li>
+        </ul>
+    
+    </menu>
+    
+    </div>
+    
+    </body>
+    
+    
+    
+    
+    
+    </html>
