@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Hola Mundo</h1>
+    <form action="procesar.php" method="post" name="contacto">
+        Nombre: <input type="text" name="nombre" placeholder="Ingrese su nombre">
+        <br><br>
+        Edad: <input type="number" name="edad">
+        <br><br>
+        Correo: <input type="text" name="correo">
+        <br><br>
+        Contraseña: <input type="password" name="password">
+        <br><br>
+        Comentarios:
+        <br><br>
+        <textarea name="comentarios"  cols="50" rows="10"></textarea>
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
